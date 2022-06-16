@@ -1,0 +1,5 @@
+.header__links{
+    /*border: red solid 1px;*/
+    display: flex;
+    align-items: end;
+}

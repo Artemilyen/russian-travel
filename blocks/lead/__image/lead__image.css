@@ -1,0 +1,24 @@
+.lead__image{
+    max-width: 984px;
+    margin: 0 auto;
+    /*border: red solid 1px;*/
+}
+
+@media screen and (max-width: 1140px){
+    .lead__image{
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 984px){
+    .lead__image{
+        max-width: 768px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 568px){
+    .lead__image{
+        max-width: 320px;
+    }
+}

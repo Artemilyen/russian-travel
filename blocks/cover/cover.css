@@ -1,0 +1,12 @@
+.cover{
+    max-width: 1184px;
+    /*border: red solid 1px;*/
+    margin: 0 auto;
+    position: relative;
+}
+
+@media screen and (max-width: 568px) {
+    .cover{
+        padding: 0;
+    }
+}

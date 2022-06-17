@@ -1,4 +1,4 @@
-.places__place{
+.place{
     margin: 0 0 80px;
     padding: 0;
     max-width: 984px;
@@ -10,25 +10,25 @@
     /*border: 1px red solid;*/
 }
 
-.places__place:last-child{
+place:last-child{
     margin: 0;
 }
 
 @media screen and (max-width: 1140px){
-    .places__place{
+    .place{
         gap: 48px 32px;
     }
 }
 
 @media screen and(max-width: 984px) {
-    .places__place{
+    .place{
         margin: 0 0 73px;
         gap: 48px 28px;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .places__place{
+    .place{
         margin: 0 0 50px;
         display: block;
         gap: 32px;

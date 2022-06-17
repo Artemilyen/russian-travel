@@ -1,4 +1,4 @@
-.places__link{
+.place__link{
     margin: 0;
     font-weight: 400;
     font-size: 18px;
@@ -6,7 +6,7 @@
     color: #fff;
 }
 
-.places__link:hover{
+.place__link:hover{
     opacity: .8;
     transition: opacity .5s ease;
 }
